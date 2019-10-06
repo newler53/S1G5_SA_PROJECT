@@ -11,7 +11,7 @@ git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/newler53/S1G5_SA_PROJECT.git
 git push -u origin master
-q
+
 git log
 git config --global --list
 git config --global user.name "newler53"
