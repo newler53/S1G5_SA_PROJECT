@@ -1,0 +1,14 @@
+server :
+  port : 9000
+
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /db
+
+  datasource:
+    url: jdbc:h2:file:./src/main/resources/DB;
+    username: g05
+    password:
+    driverClassName: org.h2.Driver
