@@ -18,3 +18,6 @@ git config --global user.name "newler53"
 git config --global user.email "newler53@gmail.com"
 git push
 git commit -a -m "first1 commit"
+
+.gitignore
+git clean -dfx
